@@ -37,5 +37,46 @@ p{
   cursor: pointer;
 }
 .cell:active{
-  outline
+  outline:navy;
+}
+#b1{
+  border-bottom: 1px solid grey ;
+  border-right: 1px solid gray;
+}
+#b2{
+  border-bottom: 1px solid grey ;
+  border-right: 1px solid gray;
+}
+#b3{
+  border-bottom: 1px solid grey ;
+  border-right: 1px solid gray;
+}
+#b4{
+  border-bottom: 1px solid grey ;
+  border-right: 1px solid gray;
+}
+#b5{
+  border-bottom: 1px solid grey ;
+  border-right: 1px solid gray;
+}
+#b6{
+  border-bottom: 1px solid grey ;
+  border-right: 1px solid gray;
+}
+#b7{
+  border-bottom: 1px solid grey ;
+  border-right: 1px solid gray;
+}
+#b8{
+  border-bottom: 1px solid grey ;
+  border-right: 1px solid gray;
+}
+#b9{
+  border-bottom: 1px solid grey ;
+  border-right: 1px solid gray;
+}
+#but{
+  box-sizing: border-box;
+  width: 95px;
+  height: ;
 }
