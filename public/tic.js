@@ -19,6 +19,42 @@ function myfunc(){
     b7btn=document.getElementById("b7").value;
     b8btn=document.getElementById("b8").value;
     b9btn=document.getElementById("b9").value;
-    if((b1=='x' || b1==))
+    if((b1=='x' || b1=='x')&&(b2=='x' || b2=='x')&&(b3=='x' || b3=='x')){
+        document.getElementById('print').innerHTML="Player X won";
+        b4btn.disable=true;
+        b5btn.disable=true;
+        b6btn.disable=true;
+        b7btn.disable=true;
+        b8btn.disable=true;
+        b9btn.disable=true;
+        b1btn.style.color="red";
+        b2btn.style.color="red";
+        b3btn.style.color="red";
+    }
+    else if((b1=='x' || b1=='x')&&(b4=='x' || b4=='x')&&(b7=='x' || b7='x')){
+        document.getElementById('print').innerHTML="Player X won";
+        b2btn.disable=true;
+        b5btn.disable=true;
+        b6btn.disable=true;
+        b3btn.disable=true;
+        b8btn.disable=true;
+        b9btn.disable=true;
+        b1btn.style.color="red";
+        b4btn.style.color="red";
+        b7btn.style.color="red";
+    }
+    else if((b1=='x' || b1=='x')&&(b4=='x' || b4=='x')&&(b7=='x' || b7='x')){
+        document.getElementById('print').innerHTML="Player X won";
+        b2btn.disable=true;
+        b5btn.disable=true;
+        b6btn.disable=true;
+        b3btn.disable=true;
+        b8btn.disable=true;
+        b9btn.disable=true;
+        b1btn.style.color="red";
+        b4btn.style.color="red";
+        b7btn.style.color="red";
+    }
+
 
 }
