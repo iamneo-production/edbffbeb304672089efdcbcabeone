@@ -115,8 +115,8 @@ function myfunc(){
         b5btn.style.color="red";
         b6btn.style.color="red";
     }
-    else if((b1=='x' || b1=='x')&&(b2=='x' || b2=='x')&&(b3=='x' || b3=='x')){
-        document.getElementById('print').innerHTML="Player X won";
+    else if((b1=='0' || b1=='0')&&(b2=='0' || b2=='0')&&(b3=='0' || b3=='0')){
+        document.getElementById('print').innerHTML="Player 0 won";
         b4btn.disable=true;
         b5btn.disable=true;
         b6btn.disable=true;
@@ -127,8 +127,8 @@ function myfunc(){
         b2btn.style.color="red";
         b3btn.style.color="red";
     }
-    else if((b1=='x' || b1=='x')&&(b4=='x' || b4=='x')&&(b7=='x' || b7=='x')) {
-        document.getElementById('print').innerHTML="Player X won";
+    else if((b1=='0' || b1=='0')&&(b4=='0' || b4=='0')&&(b7=='0' || b7=='0')) {
+        document.getElementById('print').innerHTML="Player 0 won";
         b2btn.disable=true;
         b5btn.disable=true;
         b6btn.disable=true;
@@ -139,8 +139,8 @@ function myfunc(){
         b4btn.style.color="red";
         b7btn.style.color="red";
     }
-    else if((b7=='x' || b7=='x')&&(b8=='x' || b8=='x')&&(b9=='x' || b9=='x')){
-        document.getElementById('print').innerHTML="Player X won";
+    else if((b7=='0' || b7=='0')&&(b8=='0' || b8=='0')&&(b9=='0' || b9=='0')){
+        document.getElementById('print').innerHTML="Player 0 won";
         b2btn.disable=true;
         b5btn.disable=true;
         b6btn.disable=true;
@@ -151,8 +151,8 @@ function myfunc(){
         b9btn.style.color="red";
         b7btn.style.color="red";
     }
-    else if((b3=='x' || b3=='x')&&(b6=='x' || b6=='x')&&(b9=='x' || b9=='x')){
-        document.getElementById('print').innerHTML="Player X won";
+    else if((b3=='0' || b3=='0')&&(b6=='0' || b6=='0')&&(b9=='0' || b9=='0')){
+        document.getElementById('print').innerHTML="Player 0 won";
         b2btn.disable=true;
         b5btn.disable=true;
         b1btn.disable=true;
@@ -163,8 +163,8 @@ function myfunc(){
         b6btn.style.color="red";
         b9btn.style.color="red";
     }
-    else if((b1=='x' || b1=='x')&&(b5=='x' || b5=='x')&&(b9=='x' || b9=='x')){
-        document.getElementById('print').innerHTML="Player X won";
+    else if((b1=='0' || b1=='0')&&(b5=='0' || b5=='0')&&(b9=='0' || b9=='0')){
+        document.getElementById('print').innerHTML="Player 0 won";
         b2btn.disable=true;
         b3btn.disable=true;
         b6btn.disable=true;
@@ -175,8 +175,8 @@ function myfunc(){
         b5btn.style.color="red";
         b9btn.style.color="red";
     }
-    else if((b3=='x' || b3=='x')&&(b5=='x' || b5=='x')&&(b7=='x' || b7=='x')){
-        document.getElementById('print').innerHTML="Player X won";
+    else if((b3=='0' || b3=='0')&&(b5=='0' || b5=='0')&&(b7=='0' || b7=='0')){
+        document.getElementById('print').innerHTML="Player 0 won";
         b2btn.disable=true;
         b1btn.disable=true;
         b6btn.disable=true;
@@ -187,8 +187,8 @@ function myfunc(){
         b5btn.style.color="red";
         b7btn.style.color="red";
     }
-    else if((b2=='x' || b2=='x')&&(b5=='x' || b5=='x')&&(b8=='x' || b8=='x')){
-        document.getElementById('print').innerHTML="Player X won";
+    else if((b2=='0' || b2=='0')&&(b5=='0' || b5=='0')&&(b8=='0' || b8=='0')){
+        document.getElementById('print').innerHTML="Player 0 won";
         b3btn.disable=true;
         b1btn.disable=true;
         b6btn.disable=true;
@@ -211,5 +211,6 @@ function myfunc(){
         b5btn.style.color="red";
         b6btn.style.color="red";
     }
+    else if ((b1=='x' || b1=='0') &&(b2=='x' || b2=='0') &&(b3=='x' || b3=='0') &&(b4=='x' || b4=='0') &&(b5=='x' || b5=='0') &&(b6=='x' || b6=='0') &&(b1=='x' || b1=='0') &&)
 
 }
