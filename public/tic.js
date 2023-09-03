@@ -211,6 +211,26 @@ function myfunc(){
         b5btn.style.color="red";
         b6btn.style.color="red";
     }
-    else if ((b1=='x' || b1=='0') &&(b2=='x' || b2=='0') &&(b3=='x' || b3=='0') &&(b4=='x' || b4=='0') &&(b5=='x' || b5=='0') &&(b6=='x' || b6=='0') &&(b1=='x' || b1=='0') &&)
-
+    else if ((b1=='x' || b1=='0') &&(b2=='x' || b2=='0') &&(b3=='x' || b3=='0') &&(b4=='x' || b4=='0') &&(b5=='x' || b5=='0') &&(b6=='x' || b6=='0') &&(b7=='x' || b7=='0') &&(b8=='x' || b8=='0') &&(b9=='x' || b9=='0')){
+        document.getElementById('print').innerHTML="Match Tie";
+    }
+    else{
+        if(flag==1){
+            document.getElementById('print').innerHTML="Player x turn";
+        }
+        else{
+            document.getElementById('print').innerHTML="Player 0 turn";
+        }
+    }
+}
+function myfunc_2(){
+    location.reload();
+    b1=b2=b3=b4=b5=b6=b7=b8=b9='';
+}
+flag=1;
+function myfunc_3(){
+    if(flag==1){
+        document.getElementById("b1").value="x";
+        
+    }
 }
